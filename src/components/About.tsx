@@ -23,7 +23,7 @@ export default function About() {
             src="/profile.jpg"
             alt="Photo de Haddad Massinissa"
             fill
-
+            sizes="128px"
             className="object-cover"
           />
         </div>

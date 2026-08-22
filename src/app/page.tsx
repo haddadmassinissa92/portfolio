@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
+      <main id="home" className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
         <h1 className="text-5xl font-bold">Haddad Massinissa</h1>
         <p className="text-xl text-zinc-500 dark:text-zinc-400 mt-4">Développeur Fullstack JavaScript</p>
         <p className="text-base text-zinc-400 dark:text-zinc-500 mt-6 max-w-md">

@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="projects" className="max-w-5xl mx-auto px-6 py-24 text-center border-t border-zinc-100 dark:border-zinc-800">
+    <section id="contact" className="max-w-5xl mx-auto px-6 py-24 text-center border-t border-zinc-100 dark:border-zinc-800">
       <h2 className="text-3xl font-bold mb-4">Contact</h2>
       <p className="text-zinc-500 mb-10">
         Une opportunité, une question ? N&apos;hésitez pas à me contacter.

@@ -11,6 +11,15 @@ const projects = [
     code: "https://github.com/haddadmassinissa92/proshop",
   },
   {
+    title: "PladiChat",
+    image: "/projects/pladichat.png",
+    description:
+      "Application de messagerie temps réel type WhatsApp/Messenger : appels audio/vidéo WebRTC (privés et de groupe), messages éphémères et programmés, listes de diffusion, notifications push et une trentaine de fonctionnalités avancées.",
+    stack: ["Next.js", "TypeScript", "Node.js", "Socket.io", "MongoDB", "WebRTC"],
+    demo: "https://pladine-chat.vercel.app",
+    code: "https://github.com/haddadmassinissa92/pladine-chat",
+  },
+  {
     title: "Blog App",
     image: "/projects/blog-app.png",
     description:

@@ -9,6 +9,8 @@ const skills = [
   "MongoDB",
   "TypeScript",
   "Tailwind CSS",
+  "Socket.io",
+  "WebRTC",
 ];
 
 export default function About() {

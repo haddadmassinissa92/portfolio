@@ -1,9 +1,14 @@
 import Image from "next/image";
 
+// Importez vos images statiques tout en haut
+import proshopImg from "@/../public/projects/proshop.png";
+import pladichatImg from "@/../public/projects/pladichat.png";
+import blogAppImg from "@/../public/projects/blog-app.png";
+
 const projects = [
   {
     title: "ProShop",
-    image: "/projects/proshop.png",
+    image: proshopImg,
     description:
       "Plateforme e-commerce MERN complète pour le marché algérien : panier, commandes, paiement à la livraison, assistant d'achat IA, tests automatisés et CI/CD.",
     stack: ["React", "Redux Toolkit", "Node.js", "Express", "MongoDB"],
@@ -12,7 +17,7 @@ const projects = [
   },
   {
     title: "PladiChat",
-    image: "/projects/pladichat.png",
+    image: pladichatImg,
     description:
       "Application de messagerie temps réel type WhatsApp/Messenger : appels audio/vidéo WebRTC (privés et de groupe), messages éphémères et programmés, listes de diffusion, notifications push et une trentaine de fonctionnalités avancées.",
     stack: ["Next.js", "TypeScript", "Node.js", "Socket.io", "MongoDB", "WebRTC"],
@@ -21,7 +26,7 @@ const projects = [
   },
   {
     title: "Blog App",
-    image: "/projects/blog-app.png",
+    image: blogAppImg,
     description:
       "Blog personnel avec authentification par rôles (utilisateur/modérateur/admin), upload d'images et gestion complète des articles et commentaires.",
     stack: ["Node.js", "Express", "MongoDB", "EJS"],

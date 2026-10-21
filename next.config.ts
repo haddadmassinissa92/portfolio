@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "://cloudinary.com", // Remplacez par le nom de domaine de votre hébergeur d'images
+        hostname: "res.cloudinary.com",
       },
     ],
   },

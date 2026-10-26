@@ -33,13 +33,9 @@ export default function About() {
       <h2 className="text-3xl font-bold text-center mb-8">À propos</h2>
 
       <p className="text-zinc-600 dark:text-zinc-300 text-lg leading-relaxed text-center">
-        J&apos;ai découvert le développement grâce à un ami, puis j&apos;ai
-        appris seul, étape par étape. Pour aller plus loin et structurer mes
-        bases, j&apos;ai ensuite suivi un bootcamp fullstack JavaScript. Depuis,
-        je construis de vrais projets — du e-commerce à l&apos;authentification
-        en passant par les paiements et l&apos;intégration de l&apos;IA — pour
-        continuer à progresser. Aujourd&apos;hui je cherche une opportunité pour
-        rejoindre une équipe.
+        Développeur Fullstack JavaScript spécialisé dans la création d'applications temps réel 
+        et plateformes e-commerce performantes. Disponible pour des missions de développement à 
+        distance (Remote).
       </p>
 
       <div className="flex flex-wrap justify-center gap-3 mt-10">
